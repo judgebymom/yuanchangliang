@@ -27,6 +27,6 @@ class Test {
 
     public static void main(String[] args) {
         System.out.println("hello".substring(2,4));
-        System.out.println(strStr("hello","ll"));
+        System.out.println(strStr("hello123","ll"));
     }
 }
