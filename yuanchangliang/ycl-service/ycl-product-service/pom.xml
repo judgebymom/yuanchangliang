@@ -5,15 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.ycl</groupId>
-    <artifactId>yuanchangliang</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>ycl-product-service</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-<modules>
-    <module>ycl-api</module>
-    <module>ycl-basic</module>
-    <module>ycl-web</module>
-    <module>ycl-service</module>
-    <module>ycl-service</module>
-</modules>
+
 </project>

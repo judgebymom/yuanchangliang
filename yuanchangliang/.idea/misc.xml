@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ycl-api/pom.xml" />
-        <option value="$PROJECT_DIR$/ycl-service/pom.xml" />
         <option value="$PROJECT_DIR$/ycl-web/pom.xml" />
         <option value="$PROJECT_DIR$/ycl-basic/pom.xml" />
         <option value="$PROJECT_DIR$/ycl-basic/ycl-common/pom.xml" />
         <option value="$PROJECT_DIR$/ycl-basic/ycl-entity/pom.xml" />
         <option value="$PROJECT_DIR$/ycl-basic/ycl-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/ycl-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ycl-api/ycl-product-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ycl-service/ycl-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ycl-web/ycl-background/pom.xml" />
       </list>
     </option>
   </component>

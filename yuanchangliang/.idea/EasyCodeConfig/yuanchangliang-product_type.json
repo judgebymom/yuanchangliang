@@ -1,0 +1,33 @@
+{
+  "name" : "ProductType",
+  "preName" : "",
+  "comment" : "??Ʒ?",
+  "templateGroupName" : "Default",
+  "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "pid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "name",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "cn.ycl",
+  "savePath" : "./ycl-basic/ycl-mapper/src/main/java/cn/ycl",
+  "saveModelName" : "ycl-mapper"
+}

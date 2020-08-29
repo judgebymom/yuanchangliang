@@ -1,32 +1,46 @@
 package cn.ycl.base;
-class Test {
-    public static int strStr(String haystack, String needle) {
-        if(needle.equals("") && haystack.equals("")) {
-            return 0;
-        }
-        if(needle.equals("")) {
-            return 0;
-        }
-        if(haystack.equals("") ) {
-            return -1;
-        }
-        if(haystack.length()==needle.length()) {
-            return 0;
-        }
 
-        // if(haystack.length()<=needle.length()) return 0;
-        int result=-1;
-        for (int i = 0; i < haystack.length()-needle.length()+1; i++) {
-            if(haystack.substring(i,i+needle.length()).equals(needle))  {
-                result=i;
-                break;
-            }
+import java.util.ArrayList;
+import java.util.Comparator;
+
+class Test {
+    public static void main(String[] args) {
+        ArrayList<Student> students = new ArrayList<Student>();
+        for (int i = 0; i < 1000; i++) {
+            Student student = new Student("a"+i);
+            students.add(student);
         }
-        return result;
+        students.sort(Comparator.comparing(Student::getId).reversed());
+
+        for (int i = 0; i <students.size() ; i++) {
+            System.out.println(students.get(i).getId());
+        }
+    }
+}
+class Student{
+    String name;
+     Double id;
+
+    public Student(String name) {
+        this.name = name;
+        this.id = Math.random()*10000;
     }
 
-    public static void main(String[] args) {
-        System.out.println("hello".substring(2,4));
-        System.out.println(strStr("hello123","ll"));
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Double getId() {
+        return id;
+    }
+
+    public void setId(Double id) {
+        this.id = id;
     }
 }
