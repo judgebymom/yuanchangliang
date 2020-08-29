@@ -8,5 +8,11 @@
     <artifactId>ycl-product-service</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+<dependencies>
+    <dependency>
+        <groupId>cn.ycl</groupId>
+        <artifactId>ycl-api</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+</dependencies>
 </project>

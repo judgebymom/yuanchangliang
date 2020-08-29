@@ -9,6 +9,7 @@
         <module name="ycl-product-api" />
         <module name="ycl-web" />
         <module name="ycl-mapper" />
+        <module name="yuanchangliang" />
         <module name="ycl-api" />
         <module name="ycl-common" />
         <module name="ycl-basic" />
