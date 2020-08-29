@@ -2,6 +2,7 @@ package cn.ycl.controller;
 
 import cn.ycl.entity.ProductDesc;
 import cn.ycl.service.ProductDescService;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 

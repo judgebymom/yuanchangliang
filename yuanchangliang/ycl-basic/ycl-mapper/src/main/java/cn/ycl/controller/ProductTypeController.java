@@ -2,7 +2,7 @@ package cn.ycl.controller;
 
 import cn.ycl.entity.ProductType;
 import cn.ycl.service.ProductTypeService;
-
+import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 
 /**

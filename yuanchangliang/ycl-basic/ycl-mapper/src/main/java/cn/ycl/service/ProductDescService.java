@@ -5,7 +5,7 @@ import cn.ycl.entity.ProductDesc;
 import java.util.List;
 
 /**
- * ??Ʒ???(ProductDesc)表服务接口
+ * 产品描述表(ProductDesc)表服务接口
  *
  * @author makejava
  * @since 2020-08-29 10:10:03
