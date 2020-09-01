@@ -17,7 +17,6 @@
         <option value="$PROJECT_DIR$/ycl-service/pom.xml" />
         <option value="$PROJECT_DIR$/ycl-api/ycl-product-api/pom.xml" />
         <option value="$PROJECT_DIR$/ycl-service/ycl-product-service/pom.xml" />
-        <option value="$PROJECT_DIR$/ycl-web/ycl-background/pom.xml" />
       </list>
     </option>
   </component>

@@ -9,6 +9,9 @@
     <file url="file://$PROJECT_DIR$/ycl-basic/ycl-entity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ycl-basic/ycl-mapper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ycl-basic/ycl-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ycl-service/ycl-product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ycl-service/ycl-product-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ycl-web/ycl-background/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ycl-web/ycl-background/src/main/resources" charset="UTF-8" />
   </component>
 </project>

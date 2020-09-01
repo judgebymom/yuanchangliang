@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ycl-product-api" />
-        <module name="ycl-web" />
-        <module name="ycl-mapper" />
         <module name="yuanchangliang" />
+        <module name="ycl-mapper" />
         <module name="ycl-api" />
         <module name="ycl-common" />
+        <module name="ycl-product-api" />
         <module name="ycl-basic" />
         <module name="ycl-product-service" />
         <module name="ycl-background" />
@@ -22,7 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ycl-background" options="-parameters" />
+      <module name="ycl-background" options="" />
       <module name="ycl-product-service" options="" />
     </option>
   </component>
