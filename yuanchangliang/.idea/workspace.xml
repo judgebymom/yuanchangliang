@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91c7ecc5-999e-4fa5-aed8-51c063b4f668" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ycl-api/ycl-product-api/src/main/java/cn/ycl/api/product/IProductTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-product-service/src/main/java/cn/ycl/ProductService/ProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-product-service/target/classes/cn/ycl/ProductService/ProductApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-web/ycl-background/src/main/java/cn/ycl/BackgroundApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-web/ycl-background/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-web/ycl-background/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-web/ycl-background/target/classes/cn/ycl/BackgroundApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="91c7ecc5-999e-4fa5-aed8-51c063b4f668" name="Default Changelist" comment="修改：修改依赖">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-api/ycl-product-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-api/ycl-product-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ycl-service/ycl-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/mvnw.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-web/ycl-background/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/src/main/resources/mapper/ProductDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-background/src/test/java/cn/ycl/cnyclbackground/YclBackgroundApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +206,7 @@
       <updated>1598514750231</updated>
       <workItem from="1598514753455" duration="9512000" />
       <workItem from="1598601006446" duration="24488000" />
-      <workItem from="1598942198878" duration="643000" />
+      <workItem from="1598942198878" duration="886000" />
     </task>
     <task id="LOCAL-00001" summary="修改：修改了一丢丢，只是用于尝试提交">
       <created>1598601105211</created>
@@ -256,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598693365339</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改：修改依赖">
+      <created>1598943488396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598943488396</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +267,8 @@
     <MESSAGE value="修改：增加产品的相关代码" />
     <MESSAGE value="增加：增加相关依赖" />
     <MESSAGE value="修改：父子依赖关系" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改：父子依赖关系" />
+    <MESSAGE value="修改：修改依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改：修改依赖" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1598663405455">
@@ -295,10 +283,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598614403546" />
-    <state x="551" y="113" key="CommitChangelistDialog2" timestamp="1598693364443">
+    <state x="551" y="113" key="CommitChangelistDialog2" timestamp="1598943673553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598693364443" />
+    <state x="551" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598943673553" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598754934447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -355,10 +343,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="192" height="461" key="SqlResolveConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1598669250007" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598693367511">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598943491248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598693367511" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598943491248" />
     <state x="334" y="214" key="new project wizard" timestamp="1598694835984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

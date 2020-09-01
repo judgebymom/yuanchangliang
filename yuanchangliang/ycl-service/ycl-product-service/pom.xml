@@ -85,32 +85,7 @@
         </dependency>
 
 
-        <!--        <dependency>-->
 
-        <!--            <groupId>org.apache.axis2</groupId>-->
-
-        <!--            <artifactId>axis2</artifactId>-->
-
-        <!--            <version>${axis2.version}</version>-->
-
-        <!--            <type>pom</type>-->
-
-        <!--            <scope>compile</scope>-->
-
-        <!--        </dependency>-->
-
-        <dependency>
-
-            <groupId>org.apache.axis2</groupId>
-
-            <artifactId>axis2-adb</artifactId>
-
-
-            <type>jar</type>
-
-            <scope>compile</scope>
-
-        </dependency>
 
 
 
