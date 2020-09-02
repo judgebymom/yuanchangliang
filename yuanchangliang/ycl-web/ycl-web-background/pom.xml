@@ -2,18 +2,28 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <parent>
+        <artifactId>ycl-web</artifactId>
         <groupId>cn.ycl</groupId>
-        <artifactId>yuanchangliang</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <modules>
-        <module>ycl-web-background</module>
-    </modules>
+    <artifactId>ycl-web-background</artifactId>
 
-    <artifactId>ycl-web</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.ycl</groupId>
+            <artifactId>ycl-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.ycl</groupId>
+            <artifactId>ycl-common-entity</artifactId>
+        </dependency>
+
+    </dependencies>
+
 
 </project>

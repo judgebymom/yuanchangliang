@@ -6,23 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ycl-common-entity" />
+        <module name="ycl-web-background" />
+        <module name="ycl-service-product" />
+        <module name="ycl-common-core" />
         <module name="yuanchangliang" />
-        <module name="ycl-mapper" />
         <module name="ycl-api" />
         <module name="ycl-common" />
-        <module name="ycl-product-api" />
-        <module name="ycl-basic" />
-        <module name="ycl-product-service" />
-        <module name="ycl-background" />
-        <module name="ycl-entity" />
         <module name="ycl-service" />
+        <module name="ycl-web" />
+        <module name="ycl-common-mapper" />
+        <module name="ycl-api-product" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ycl-product-api" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ycl-background" options="" />
-      <module name="ycl-product-service" options="" />
+      <module name="ycl-service-product" options="" />
+      <module name="ycl-web-background" options="" />
     </option>
   </component>
 </project>

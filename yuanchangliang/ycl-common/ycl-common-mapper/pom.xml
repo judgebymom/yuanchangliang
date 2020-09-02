@@ -2,19 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-<parent>
-    <groupId>cn.ycl</groupId>
-    <artifactId>yuanchangliang</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-</parent>
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>ycl-common</artifactId>
+        <groupId>cn.ycl</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
 
-    <artifactId>ycl-api</artifactId>
-
-    <modules>
-        <module>ycl-api-product</module>
-    </modules>
+    <artifactId>ycl-mapper</artifactId>
 
 
 </project>

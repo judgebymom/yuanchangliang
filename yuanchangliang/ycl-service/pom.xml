@@ -8,9 +8,11 @@
         <artifactId>yuanchangliang</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <groupId>cn.ycl</groupId>
     <artifactId>ycl-service</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+
+    <modules>
+        <module>ycl-service-product</module>
+    </modules>
 
 
 </project>
