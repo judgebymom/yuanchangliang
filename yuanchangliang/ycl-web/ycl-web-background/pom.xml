@@ -17,6 +17,7 @@
             <groupId>cn.ycl</groupId>
             <artifactId>ycl-common-core</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
 
         <dependency>
             <groupId>cn.ycl</groupId>

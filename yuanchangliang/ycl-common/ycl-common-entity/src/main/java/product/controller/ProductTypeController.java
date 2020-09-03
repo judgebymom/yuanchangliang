@@ -1,28 +1,27 @@
-package controller;
+package product.controller;
 
-import entity.Product;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.ProductService;
+import product.entity.ProductType;
+import product.service.ProductTypeService;
 
 import javax.annotation.Resource;
 
-
 /**
- * ??Ʒ??Ϣ?(Product)表控制层
+ * ??Ʒ?(ProductType)表控制层
  *
  * @author makejava
- * @since 2020-08-29 09:12:55
+ * @since 2020-09-03 14:48:49
  */
 @RestController
-@RequestMapping("product")
-public class ProductController {
+@RequestMapping("productType")
+public class ProductTypeController {
     /**
      * 服务对象
      */
     @Resource
-    private ProductService productService;
+    private ProductTypeService productTypeService;
 
     /**
      * 通过主键查询单条数据
@@ -31,8 +30,8 @@ public class ProductController {
      * @return 单条数据
      */
     @GetMapping("selectOne")
-    public Product selectOne(Long id) {
-        return this.productService.queryById(id);
+    public ProductType selectOne(Long id) {
+        return this.productTypeService.queryById(id);
     }
 
 }

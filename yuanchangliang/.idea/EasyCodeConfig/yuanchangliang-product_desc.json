@@ -27,7 +27,7 @@
   } ],
   "pkColumn" : null,
   "otherColumn" : null,
-  "savePackageName" : "cn.ycl",
-  "savePath" : "./ycl-basic/ycl-mapper/src/main/java/cn/ycl",
-  "saveModelName" : "ycl-mapper"
+  "savePackageName" : "product",
+  "savePath" : "./ycl-common/ycl-common-entity/src/main/java/product",
+  "saveModelName" : "ycl-common-entity"
 }

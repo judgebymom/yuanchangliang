@@ -1,9 +1,9 @@
-package service.impl;
+package product.service.impl;
 
-import dao.ProductDao;
-import entity.Product;
+import product.dao.ProductDao;
+import product.entity.Product;
 import org.springframework.stereotype.Service;
-import service.ProductService;
+import product.service.ProductService;
 
 import javax.annotation.Resource;
 import java.util.List;

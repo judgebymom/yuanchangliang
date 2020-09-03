@@ -7,16 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ycl-common-entity" />
+        <module name="ycl-api-product" />
         <module name="ycl-web-background" />
         <module name="ycl-service-product" />
-        <module name="ycl-common-core" />
-        <module name="yuanchangliang" />
-        <module name="ycl-api" />
-        <module name="ycl-common" />
+        <module name="ycl-api-background" />
         <module name="ycl-service" />
-        <module name="ycl-web" />
+        <module name="ycl-common" />
         <module name="ycl-common-mapper" />
-        <module name="ycl-api-product" />
+        <module name="ycl-web" />
+        <module name="ycl-common-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

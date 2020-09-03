@@ -2,7 +2,7 @@ package cn.ycl.api.product;
 
 
 import cn.ycl.base.IBaseService;
-import entity.Product;
+import product.entity.Product;
 
 /**
  * @Author YuanChangLiang

@@ -1,17 +1,16 @@
-package service;
+package product.service;
 
-import entity.Product;
+import product.entity.ProductDesc;
 
 import java.util.List;
 
-
 /**
- * ??Ʒ??Ϣ?(Product)表服务接口
+ * ??Ʒ???(ProductDesc)表服务接口
  *
  * @author makejava
- * @since 2020-08-29 09:12:54
+ * @since 2020-09-03 14:48:18
  */
-public interface ProductService {
+public interface ProductDescService {
 
     /**
      * 通过ID查询单条数据
@@ -19,7 +18,7 @@ public interface ProductService {
      * @param id 主键
      * @return 实例对象
      */
-    Product queryById(Long id);
+    ProductDesc queryById(Long id);
 
     /**
      * 查询多条数据
@@ -28,23 +27,23 @@ public interface ProductService {
      * @param limit  查询条数
      * @return 对象列表
      */
-    List<Product> queryAllByLimit(int offset, int limit);
+    List<ProductDesc> queryAllByLimit(int offset, int limit);
 
     /**
      * 新增数据
      *
-     * @param product 实例对象
+     * @param productDesc 实例对象
      * @return 实例对象
      */
-    Product insert(Product product);
+    ProductDesc insert(ProductDesc productDesc);
 
     /**
      * 修改数据
      *
-     * @param product 实例对象
+     * @param productDesc 实例对象
      * @return 实例对象
      */
-    Product update(Product product);
+    ProductDesc update(ProductDesc productDesc);
 
     /**
      * 通过主键删除数据
