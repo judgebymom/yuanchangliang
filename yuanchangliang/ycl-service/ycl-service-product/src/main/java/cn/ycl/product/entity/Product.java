@@ -1,16 +1,16 @@
-package product.entity;
+package cn.ycl.product.entity;
 
 import java.io.Serializable;
 import java.util.Date;
 
 /**
- *(Product)实体类
+ * ??Ʒ??Ϣ?(Product)实体类
  *
  * @author makejava
- * @since 2020-08-29 09:12:52
+ * @since 2020-09-03 17:11:44
  */
 public class Product implements Serializable {
-    private static final long serialVersionUID = -74063309562400322L;
+    private static final long serialVersionUID = -62616310985663458L;
     /**
      * ?
      */

@@ -4,31 +4,40 @@ package cn.ycl.base;
  * @Author YuanChangLiang
  * @Date 2020/8/27 15:59
  */
-public abstract class BaseServiceImpl<T> implements IBaseService<T> {
+public class BaseServiceImpl<T> implements IBaseService<T> {
 
-    public abstract IBaseDao<T> getBaseDao();
+    public IBaseDao<T> getBaseDao() {
+        return null;
+    }
 
+
+    @Override
     public int deleteByPrimaryKey(Long id) {
-        return getBaseDao().deleteByPrimaryKey(id);
+        return 0;
     }
 
+    @Override
     public int insert(T t) {
-        return getBaseDao().insert(t);
+        return 0;
     }
 
+    @Override
     public int insertSelective(T t) {
-        return getBaseDao().insertSelective(t);
+        return 0;
     }
 
+    @Override
     public T selectByPrimaryKey(Long id) {
-        return getBaseDao().selectByPrimaryKey(id);
+        return null;
     }
 
+    @Override
     public int updateByPrimaryKeySelective(T t) {
-        return getBaseDao().updateByPrimaryKeySelective(t);
+        return 0;
     }
 
+    @Override
     public int updateByPrimaryKey(T t) {
-        return getBaseDao().updateByPrimaryKey(t);
+        return 0;
     }
 }

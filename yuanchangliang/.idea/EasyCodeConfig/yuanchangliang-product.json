@@ -83,7 +83,7 @@
   } ],
   "pkColumn" : null,
   "otherColumn" : null,
-  "savePackageName" : "",
-  "savePath" : "./ycl-basic/ycl-entity/src/main/java",
-  "saveModelName" : "ycl-entity"
+  "savePackageName" : "cn.ycl.product",
+  "savePath" : "./ycl-service/ycl-service-product/src/main/java/cn/ycl/product",
+  "saveModelName" : "ycl-service-product"
 }

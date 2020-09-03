@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -11,16 +12,14 @@
         <module name="ycl-web-background" />
         <module name="ycl-service-product" />
         <module name="ycl-api-background" />
-        <module name="ycl-service" />
-        <module name="ycl-common" />
-        <module name="ycl-common-mapper" />
-        <module name="ycl-web" />
         <module name="ycl-common-core" />
+        <module name="ycl-common" />
+        <module name="ycl-web" />
+        <module name="ycl-common-mapper" />
+        <module name="ycl-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ycl-product-api" target="1.5" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -4,3 +4,10 @@ dubbo:
   registry:
     protocol: zookeeper
     address: 192.168.200.50:2181
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/yuanchangliang?userUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
