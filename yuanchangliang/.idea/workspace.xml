@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c7ecc5-999e-4fa5-aed8-51c063b4f668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/AjaxResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/HttpStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/PageDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/PageDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/ServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/ServletUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/SqlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/SqlUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableDataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableDataInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/config/SimpleCORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/config/SimpleCORSFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +218,7 @@
       <workItem from="1599017928012" duration="2223000" />
       <workItem from="1599027366137" duration="12473000" />
       <workItem from="1599115418464" duration="1484000" />
-      <workItem from="1599116915720" duration="42941000" />
+      <workItem from="1599116915720" duration="44342000" />
     </task>
     <task id="LOCAL-00001" summary="修改：修改了一丢丢，只是用于尝试提交">
       <created>1598601105211</created>
@@ -295,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599138230221</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增：在product的config包中，新增跨域解决方案">
+      <created>1599471928148</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599471928148</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +319,8 @@
     <MESSAGE value="修改：修改依赖，调整架构" />
     <MESSAGE value="新增：增加product_desc和product_type的cdes" />
     <MESSAGE value="新增：嫖来了魏来大佬的分页插件以及代码生成了product的五大文件文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增：嫖来了魏来大佬的分页插件以及代码生成了product的五大文件文件" />
+    <MESSAGE value="新增：在product的config包中，新增跨域解决方案" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增：在product的config包中，新增跨域解决方案" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Project_Structure" timestamp="1599293818370">
@@ -347,10 +343,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599440690171" />
-    <state x="551" y="113" key="CommitChangelistDialog2" timestamp="1599471852351">
+    <state x="551" y="113" key="CommitChangelistDialog2" timestamp="1599471927098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599471852351" />
+    <state x="551" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599471927098" />
     <state width="436" height="466" key="DebuggerActiveHint" timestamp="1599397211769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -427,10 +423,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="192" height="461" key="SqlResolveConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1598669250007" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599138232274">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599471929983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599138232274" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599471929983" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599028810101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
