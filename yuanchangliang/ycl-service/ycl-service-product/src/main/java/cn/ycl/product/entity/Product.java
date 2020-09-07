@@ -12,47 +12,47 @@ import java.util.Date;
 public class Product implements Serializable {
     private static final long serialVersionUID = -62616310985663458L;
     /**
-     * ?
+     * 主键id
      */
     private Long id;
     /**
-     * ??Ʒ?
+     * 商品名称
      */
     private String name;
     /**
-     * ?۸
+     * 商品价格
      */
     private Double price;
     /**
-     * ?
+     * 卖点
      */
     private String salePoint;
     /**
-     * ͼƬ???
+     * 商品图片
      */
     private String image;
     /**
-     * ???
+     * 商品库存
      */
     private Long stock;
     /**
-     * ?Ƿ
+     * 商品状态
      */
     private Integer flag;
     /**
-     * ????ʱ?
+     * 创建时间
      */
     private Date createTime;
     /**
-     * ?????
+     * 创建人
      */
     private String createBy;
     /**
-     * ????ʱ?
+     * 更新时间
      */
     private Date updateTime;
     /**
-     * ?????
+     * 更新人
      */
     private String updateBy;
 

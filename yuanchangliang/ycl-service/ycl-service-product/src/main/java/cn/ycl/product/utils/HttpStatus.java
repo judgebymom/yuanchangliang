@@ -3,7 +3,7 @@ package cn.ycl.product.utils;
 /**
  * 返回状态码
  *
- * @author weilai
+ * @author ycl
  */
 public class HttpStatus {
     /**

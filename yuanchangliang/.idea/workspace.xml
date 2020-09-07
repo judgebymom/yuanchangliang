@@ -2,62 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c7ecc5-999e-4fa5-aed8-51c063b4f668" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-core/target/classes/META-INF/ycl-common-core.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/mapper/ProductDescDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/mapper/ProductTypeDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/controller/ProductDescController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/controller/ProductTypeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/dao/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/dao/ProductDescDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/dao/ProductTypeDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/entity/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/entity/ProductDesc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/entity/ProductType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/service/ProductDescService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/service/ProductTypeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/service/impl/ProductDescServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/product/service/impl/ProductTypeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/AjaxResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/HttpStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/PageDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/SqlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableDataInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/yuanchangliang-product.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/yuanchangliang-product.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-core/src/main/java/cn/ycl/base/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/ycl-common-core/src/main/java/cn/ycl/base/BaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-core/src/main/java/cn/ycl/base/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-core/target/classes/cn/ycl/base/BaseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/ycl-common-core/target/classes/cn/ycl/base/BaseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-core/target/classes/cn/ycl/base/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-core/target/classes/cn/ycl/base/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-entity/src/main/java/product/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/src/main/java/product/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-entity/src/main/resources/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/ycl-common-entity/target/classes/mapper/ProductDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-common/ycl-common-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/ycl-common-mapper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/ProductService/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/ProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/target/classes/cn/ycl/ProductService/ProductApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-web-background/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-web/ycl-web-background/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-web-background/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-web/ycl-web-background/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-web-background/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-web/ycl-web-background/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ycl-web/ycl-web-background/target/classes/cn/ycl/BackgroundApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-web/ycl-web-background/target/classes/cn/ycl/BackgroundApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/AjaxResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/HttpStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/PageDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/PageDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/ServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/ServletUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/SqlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/SqlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableDataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableDataInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ycl-service/ycl-service-product/src/main/java/cn/ycl/product/utils/TableSupport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,11 +94,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ganyoutong2back" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -147,9 +106,11 @@
       <recent name="C:\git\git\yuanchangliang\ycl-api" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.ycl.config" />
       <recent name="cn.ycl.product.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\git\yuanchangliang\ycl-common" />
       <recent name="C:\git\git\yuanchangliang\ycl-web\ycl-web-background\src\test\java" />
       <recent name="C:\git\yuanchangliang\ycl-basic\ycl-common\src\main\java" />
     </key>
@@ -197,6 +158,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ycl.BackgroundApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GytGenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ycl-common-gen" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jlkj.gen.GytGenApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,7 +230,7 @@
       <workItem from="1599017928012" duration="2223000" />
       <workItem from="1599027366137" duration="12473000" />
       <workItem from="1599115418464" duration="1484000" />
-      <workItem from="1599116915720" duration="14359000" />
+      <workItem from="1599116915720" duration="42941000" />
     </task>
     <task id="LOCAL-00001" summary="修改：修改了一丢丢，只是用于尝试提交">
       <created>1598601105211</created>
@@ -320,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599115868069</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="新增：嫖来了魏来大佬的分页插件以及代码生成了product的五大文件文件">
+      <created>1599138230221</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599138230221</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,13 +323,14 @@
     <MESSAGE value="修改：修改以及删除依赖" />
     <MESSAGE value="修改：修改依赖，调整架构" />
     <MESSAGE value="新增：增加product_desc和product_type的cdes" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增：增加product_desc和product_type的cdes" />
+    <MESSAGE value="新增：嫖来了魏来大佬的分页插件以及代码生成了product的五大文件文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增：嫖来了魏来大佬的分页插件以及代码生成了product的五大文件文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1599135537137">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1599293818370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1599135537137" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1599293818370" />
     <state x="537" y="169" key="#Test01.test" timestamp="1599035353961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -367,66 +343,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599136706378" />
-    <state x="765" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599115551216">
+    <state x="765" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599440690171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599115551216" />
-    <state x="551" y="113" key="CommitChangelistDialog2" timestamp="1599115866978">
+    <state x="765" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599440690171" />
+    <state x="551" y="113" key="CommitChangelistDialog2" timestamp="1599471852351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599115866978" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599118554723">
+    <state x="551" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599471852351" />
+    <state width="436" height="466" key="DebuggerActiveHint" timestamp="1599397211769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599118554723" />
-    <state width="817" height="507" key="GridCell.Tab.0.bottom" timestamp="1599137424291">
+    <state width="436" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1599397211769" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599276673529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.0.center" timestamp="1599137424291">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599276673529" />
+    <state width="903" height="350" key="GridCell.Tab.0.bottom" timestamp="1599471806671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.0.left" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806671" />
+    <state width="903" height="350" key="GridCell.Tab.0.center" timestamp="1599471806671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.0.right" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806671" />
+    <state width="903" height="350" key="GridCell.Tab.0.left" timestamp="1599471806671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.1.bottom" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806671" />
+    <state width="903" height="350" key="GridCell.Tab.0.right" timestamp="1599471806671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.1.center" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806671" />
+    <state width="903" height="350" key="GridCell.Tab.1.bottom" timestamp="1599471806671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.1.left" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806671" />
+    <state width="903" height="350" key="GridCell.Tab.1.center" timestamp="1599471806671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.1.right" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806671" />
+    <state width="903" height="350" key="GridCell.Tab.1.left" timestamp="1599471806671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.2.bottom" timestamp="1599137424292">
+    <state width="903" height="350" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806671" />
+    <state width="903" height="350" key="GridCell.Tab.1.right" timestamp="1599471806671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424292" />
-    <state width="817" height="507" key="GridCell.Tab.2.center" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806671" />
+    <state width="903" height="350" key="GridCell.Tab.2.bottom" timestamp="1599471806672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.2.left" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806672" />
+    <state width="903" height="350" key="GridCell.Tab.2.center" timestamp="1599471806672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
-    <state width="817" height="507" key="GridCell.Tab.2.right" timestamp="1599137424291">
+    <state width="903" height="350" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806672" />
+    <state width="903" height="350" key="GridCell.Tab.2.left" timestamp="1599471806672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="817" height="507" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599137424291" />
+    <state width="903" height="350" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806672" />
+    <state width="903" height="350" key="GridCell.Tab.2.right" timestamp="1599471806672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="903" height="350" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599471806672" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1598662770820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -439,18 +419,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598673190743" />
-    <state x="459" y="189" key="SettingsEditor" timestamp="1599124780057">
+    <state x="459" y="189" key="SettingsEditor" timestamp="1599375545879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="459" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599124780057" />
+    <state x="459" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599375545879" />
     <state width="192" height="461" key="SqlResolveConfigurable" timestamp="1598669250007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="192" height="461" key="SqlResolveConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1598669250007" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599115870188">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599138232274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599115870188" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599138232274" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599028810101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -467,9 +447,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1599031792187" />
-    <state x="311" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1599137211227">
+    <state x="702" y="137" key="refactoring.ChangeSignatureDialog" timestamp="1599141210296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="311" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599137211227" />
+    <state x="702" y="137" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599141210296" />
+    <state x="311" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1599181725404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="311" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599181725404" />
   </component>
 </project>

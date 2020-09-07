@@ -5,7 +5,7 @@ package cn.ycl.product.utils;
 /**
  * 表格数据处理
  *
- * @author weilai
+ * @author ycl
  */
 public class TableSupport {
     /**

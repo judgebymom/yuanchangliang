@@ -3,7 +3,7 @@ package cn.ycl.product.utils;
 /**
  * sql操作工具类
  *
- * @author weilai
+ * @author ycl
  */
 public class SqlUtil {
     /**

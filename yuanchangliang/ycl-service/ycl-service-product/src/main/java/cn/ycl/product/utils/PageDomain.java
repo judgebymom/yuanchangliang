@@ -5,7 +5,7 @@ package cn.ycl.product.utils;
 /**
  * 分页数据
  *
- * @author weilai
+ * @author ycl
  */
 public class PageDomain {
     /**

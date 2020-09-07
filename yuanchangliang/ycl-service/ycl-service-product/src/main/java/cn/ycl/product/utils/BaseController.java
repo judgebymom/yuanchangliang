@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 
-import javax.annotation.Resource;
 import java.beans.PropertyEditorSupport;
 import java.util.Date;
 import java.util.HashMap;
@@ -19,7 +18,7 @@ import java.util.Map;
 /**
  * web层通用数据处理
  *
- * @author weilai
+ * @author ycl
  */
 public class BaseController {
     protected final Logger logger = LoggerFactory.getLogger(BaseController.class);
