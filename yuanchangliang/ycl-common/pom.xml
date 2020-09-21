@@ -16,7 +16,11 @@
     <module>ycl-common-entity</module>
     <module>ycl-common-mapper</module>
 </modules>
-
+    <properties>
+        <!--指定Java版本-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

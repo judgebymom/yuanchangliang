@@ -16,6 +16,10 @@
     </parent>
 
     <artifactId>ycl-mapper</artifactId>
-
+    <properties>
+        <!--指定Java版本-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
 </project>
